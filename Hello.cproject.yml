@@ -3,7 +3,7 @@ project:
 # it is recommended to list the packs that contain the components in the cproject.yml file.
   groups:
     - group: Documentation
-      files: 
+      files:
         - file: ./README.md
     - group: Main
       files:
@@ -25,7 +25,7 @@ project:
     - component: ARM::CMSIS-Compiler:STDERR:Custom
     - component: ARM::CMSIS-Compiler:STDOUT:Custom
     - component: ARM::CMSIS-Compiler:STDIN:Custom
-    
+
 
     - component: ARM::Device:Native Driver:IO
       for-context:
@@ -56,7 +56,7 @@ project:
       - +CS300
       - +CS310
       - +CS315
-   
+
     - component: ARM::Device:Definition
       for-context:
       - +CS300
